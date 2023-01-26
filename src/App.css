@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-cont {
+  
+  background: #F5F7FB;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  
+}
+.quiz-title {
+  font-family: Karla;
+  color: #293264;
+  font-weight: 700;
+  font-size: 50px;
+}
+.quiz-descirpiton {
+  font-family: Inter;
+  color: #293264;
+  font-weight: 400;
+  font-size: 20px;
+}
+.start-button {
+  border: none;
+  background-color: #4D5B9E;
+  color: #fff;
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.quiz-main {
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* ==== Question ==== */
+.cont-question-cont {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.quiz-question {
+  font-family: Karla;
+  color: #293264;
+  font-weight: 700;
+  font-size: 20px;
+}
+.answer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color:  transparent;
+  color: #293264;
+  font-family: Inter;
+  margin-right: 14px;
+  border-radius: 15px;
+  border: 1px solid #293264;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #D6DBF5;
+}
+#correct.answer {
+  background-color: #94D7A2;
+  border: 1px solid #94D7A2;
+}
+#incorrect.selected {
+  background-color: #F8BCBC;
+   border: 1px solid #F8BCBC;
+   opacity: 0.5;
+}
+#not-selected.answer {
+  border: 1px solid #293264;
+  color: #293264;
+  opacity: 0.5;
+
+}
+
+.line {
+  margin-top: 0.8rem;
+  border-top: 1px solid grey;
+}
+
+.check-button {
+  border: none;
+  background-color: #4D5B9E;
+  color: #fff;
+  border-radius: 15px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.score {
+  color: #293264;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter;
+  margin-right: 20px;
+}
